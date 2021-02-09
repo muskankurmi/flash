@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  font-size: 20px;
+  background-color:#ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+#details {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#details td, #details th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#details tr:nth-child(even){background-color: #f2f2f2;}
+
+#details tr:hover {background-color: #ddd;}
+
+#details th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #00BFFF;
+  color: white;
+}

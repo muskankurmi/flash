@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+<title>Index</title>
+
+<link rel="stylesheet" type="text/css" href="Style/home.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+  <h2>For emergency</h2>
+  <p>Contact - 9989898989</p>
+</div>
+
+<div id="navbar">
+
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Medical Care</span>
+	 <a href="userLogin.jsp">Login</a>
+	 <a href="adminLogin.jsp">Admin</a>
+   <a href="userRegister.jsp">Register</a>
+  <a href="#">Contact</a>
+  <a href="#">About</a>
+  <a href="index.html">Home</a>
+ </div>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <a class="active" href="index.html">Home</a>  
+		<a href="#">About</a>	
+		<a href="vendorDetail.jsp">Add vendor</a>
+		<a href="showVendorDetail.jsp">Show vendor detail</a>
+		<a href="medicineDetail.jsp">Add Medicine</a>
+		<a href="showMedicineDetail.jsp">View Medicine</a>
+		<a href="#">Helth services</a>
+		<a href="#">consultant</a>
+		<a href="#">specialist</a>
+		<a href="#">our doctors</a> 
+		<a href="#">appoinments</a>
+		<a href="#">Mission</a>
+		<a href="#">Vision</a> 
+		
+		<a href="#">Why us</a>
+		 <a href="#">Portfolio</a>
+		<a href="#">Contact us</a>
+</div>
+
+<div id="main">
+<div class="container">
+  <img src="Style/image/i.jpg" style="width:100%;">
+  <div class="text-block">
+    <h1>We Care for Your Health </h1>
+        <h1>Every Moment</h1>
+    
+    <p>Medical Services that you can trust
+</p>
+  </div>
+</div>
+</div>
+<div class="footer">
+ <div class="container-fluid bg-grey">
+		<h2 class="text-center">CONTACT</h2>
+		<div class="row">
+			<div class="col-sm-5">
+				<p>Contact us :</p>
+				<p>
+					<span class="glyphicon glyphicon-map-marker"></span>Medical Care ,indore
+				</p>
+				<p>
+					<span class="glyphicon glyphicon-phone"></span> +91 9992754652
+				</p>
+				<p>
+					<span class="glyphicon glyphicon-envelope"></span>
+					caremedical@gmail.com
+
+				</p>
+			</div>
+
+			<div class="col-sm-7">
+				<div class="row">
+					<div class="col-sm-6 form-group">
+						<input class="form-control" id="name" name="name"
+							placeholder="Name" type="text" required>
+					</div>
+					<div class="col-sm-6 form-group">
+						<input class="form-control" id="email" name="email"
+							placeholder="Email" type="email" required>
+					</div>
+				</div>
+				<textarea class="form-control" id="comments" name="comments"
+					placeholder="Comment" rows="5"></textarea>
+				<br>
+				<div class="row">
+					<div class="col-sm-12 form-group">
+						<button class="btn btn-default pull-right" type="submit">Send</button>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+ </div>
+ 
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  font-size: 20px;
+  background-color:#00BFFF;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.jumbotron {
+	background-color: #f0f0f0;
+	padding: 100px 25px;
+}
+
+
+
